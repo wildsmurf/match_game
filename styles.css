@@ -1,0 +1,35 @@
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.gameboard {
+  width: 406px;
+  height: 406px;
+  border: 3px solid black;
+}
+
+.gameboard div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  float: left;
+}
+
+.button {
+  width: 99px;
+  height: 99px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.mystery {
+  background-image: url('https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2475/s300/beaker-white-256.png');
+  width: 99px;
+  height: 99px;
+  cursor: pointer;
+}
